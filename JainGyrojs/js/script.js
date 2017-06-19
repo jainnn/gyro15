@@ -20,7 +20,7 @@ function setup(){
         forceY = o.beta/50;
     });
 
-    for (var i = 0; i < 10; i++) {
+    for (var i = 0; i < 2; i++) {
     	bars[i] = new Bar();
     }
 
