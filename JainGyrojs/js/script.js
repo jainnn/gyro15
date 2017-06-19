@@ -20,7 +20,7 @@ function setup(){
         forceY = o.beta/50;
     });
 
-    for (var i = 0; i < 1; i++) {
+    for (var i = 0; i < 4; i++) {
     	bars[i] = new Bar();
     }
 
@@ -77,6 +77,6 @@ Bar.prototype = {
 
 	rect(this.x, this.y, this.diam * forceX*20, this.diam * forceY*40);			
 	rect(this.x+100, this.y+100, this.diam * forceX*30, this.diam * forceY*40);	
-	rect(this.x-30, this.y-50, this.diam * forceX*10, this.diam * forceY*10);
+	rect(this.x-80, this.y-50, this.diam * forceX*10, this.diam * forceY*10);
 	}
 }
