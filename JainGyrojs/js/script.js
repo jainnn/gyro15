@@ -76,7 +76,7 @@ Bar.prototype = {
 		}
 
 	rect(this.x, this.y, this.diam * forceX*25, this.diam * forceY*15);			
-	rect(this.x+100, this.y+100, this.diam * forceX*10, this.diam * forceY*13);	
-	rect(this.x-80, this.y-50, this.diam * forceX*5, this.diam * forceY*30);
+	rect(this.x+80, this.y+100, this.diam * forceX*10, this.diam * forceY*13);	
+	rect(this.x-60, this.y-40, this.diam * forceX*5, this.diam * forceY*30);
 	}
 }
