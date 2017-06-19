@@ -46,7 +46,7 @@ function draw(){
   //  r = map(accelerationX, -90, 90, 100, 200);
   //  g = map(accelerationY, -90, 90, 100, 200);
 
-}
+//}
 
 
 function Bar(){
