@@ -75,8 +75,8 @@ Bar.prototype = {
 			this.y = height-this.diam/2;
 		}
 
-	rect(this.x, this.y, this.diam * forceX*20, this.diam * forceY*40);			
-	rect(this.x+100, this.y+100, this.diam * forceX*30, this.diam * forceY*40);	
+	rect(this.x, this.y, this.diam * forceX*25, this.diam * forceY*15);			
+	rect(this.x+100, this.y+100, this.diam * forceX*20, this.diam * forceY*10);	
 	rect(this.x-80, this.y-50, this.diam * forceX*10, this.diam * forceY*10);
 	}
 }
